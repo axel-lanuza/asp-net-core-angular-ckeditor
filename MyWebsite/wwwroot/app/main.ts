@@ -1,14 +1,18 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
+import { HttpModule } from "@angular/http";
 import { AppComponent } from "./app.component";
+import { CKEditorDirective } from "./shared/directives/ckeditor.directive";
 
 @NgModule({
     imports: [
-        BrowserModule
+        BrowserModule,
+        HttpModule
     ],
     declarations: [
-        AppComponent
+        AppComponent,
+        CKEditorDirective
     ],
     bootstrap: [
         AppComponent

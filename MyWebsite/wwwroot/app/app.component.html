@@ -1,1 +1,10 @@
 ﻿<h1>{{title}}</h1>
+
+<div>{{message}}</div>
+<br />
+
+<textarea ckeditor id="editor" [(ngModel)]="content" [config]="ckeditorConfig"></textarea>
+<div>
+    <input type="button" value="Send" (click)="send()" />
+    <input type="button" value="Clear" (click)="clear()" />
+</div>

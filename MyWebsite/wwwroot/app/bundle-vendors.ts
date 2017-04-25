@@ -1,3 +1,9 @@
+// Define global variable
+declare var CKEDITOR_BASEPATH: string;
+eval(`CKEDITOR_BASEPATH = "/ckeditor/";`);
+
+require("ckeditor");
+
 // core
 require("core-js");
 require("zone.js");
