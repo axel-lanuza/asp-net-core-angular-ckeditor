@@ -5,9 +5,11 @@ Use the Visual Studio 2017 to development.
 
 介紹如何透過 TypeScript 把 CKeditor 包裝成 Angular 4 的 Directive，讓 Angular 4 能更方便使用 CKEditor。  
 並建立一個簡單的 ASP.NET Core Web Api 跟 CKEditor 做存取資料的互動。  
-[ASP.NET Core + Angular 4 教學 - CKEditor](https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-ckeditor.html)
 
-延續前兩篇的延伸範例  
+Blog：  
+[ASP.NET Core + Angular 4 教學 - CKEditor](https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-ckeditor.html)  
+
+程式碼延續前兩篇的範例：
 [ASP.NET Core + Angular 4 教學 - 從無到有](https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-%E5%BE%9E%E7%84%A1%E5%88%B0%E6%9C%89.html)  
 [ASP.NET Core + Angular 4 教學 - Webpack打包](https://blog.johnwu.cc/article/asp-net-core-angular-4-%E6%95%99%E5%AD%B8-webpack.html)
 
